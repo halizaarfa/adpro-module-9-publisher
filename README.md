@@ -16,6 +16,13 @@ Publisher dan subscriber saling berkomunikasi dengan satu message broker. Pesan 
 
 ## Message Broker with RabbitMQ
 
-### Running RabbitMQ as message broker
+### Running RabbitMQ as message broker`
 ![1-running.png](1-running.png)
+
+### Sending and processing event
+![2-sending-processing.png](2-sending-processing.png)
+
+Pada saat message broker atau RabbitMQ berjalan, ketika program Subscriber dan Publisher dijalankan dengan `cargo run`, maka Publisher akan mengirimkan data ke message broker dan Subscriber akan menerima data tersebut.
+Pada gambar di atas, Publisher mengirimkan data sekali ke message broker dan Subscriber menerimanya.
+
 

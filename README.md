@@ -10,6 +10,12 @@ Jumlah data yang terkirim oleh publisher adalah lima data untuk setiap run. Ini 
 
 ## The url of: `amqp://guest:guest@localhost:5672` is the same as in the subscriber program, what does it mean?
 
-
 Publisher dan subscriber mengakses URL yang sama, yaitu `amqp://guest:guest@localhost:5672`. Artinya, keduanya mengakses server AMQP yang sama.
 Publisher dan subscriber saling berkomunikasi dengan satu message broker. Pesan yang dikirimkan oleh publisher akan diterima oleh subscriber yang terhubung ke server.
+
+
+## Message Broker with RabbitMQ
+
+### Running RabbitMQ as message broker
+![1-running.png](1-running.png)
+
